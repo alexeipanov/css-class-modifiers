@@ -1,7 +1,7 @@
 {
-  "name": "css-class-modifiers",
-  "version": "0.0.2",
-  "description": "The default blueprint for ember-cli addons.",
+  "name": "ember-essential-modifiers",
+  "version": "0.0.3",
+  "description": "An essential collection of Ember.js modifiers",
   "keywords": [
     "ember-addon"
   ],

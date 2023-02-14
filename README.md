@@ -1,7 +1,7 @@
-css-class-modifiers
+ember-essential-modifiers
 ==============================================================================
 
-[Short description of the addon.]
+An essential Ember.js modifiers collection 
 
 
 Compatibility
@@ -16,15 +16,36 @@ Installation
 ------------------------------------------------------------------------------
 
 ```
-ember install css-class-modifiers
+ember install ember-essential-modifiers
 ```
 
 
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+- toggle-class:
+Toggles className depends on isOn value
 
+```
+<div {{toggle-class isOn=true className="active">
+  Menu
+</div>
+```
+
+Result:
+
+```
+ <div class="active">Menu</div>
+```
+
+- on-transition-end
+Handles callback on `transitionend` event
+
+```
+<div {{on-transition-end onTransitionEnd=this.handler>
+  Menu
+</div>
+```
 
 Contributing
 ------------------------------------------------------------------------------
