@@ -1,1 +1,1 @@
-export { default } from 'css-class-modifiers/modifiers/on-transition-end';
+export { default } from 'ember-essential-modifiers/modifiers/on-transition-end';

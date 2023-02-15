@@ -1,1 +1,1 @@
-export { default } from 'css-class-modifiers/modifiers/toggle-class';
+export { default } from 'ember-essential-modifiers/modifiers/toggle-class';
