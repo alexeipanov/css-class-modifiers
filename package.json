@@ -1,13 +1,22 @@
 {
   "name": "ember-essential-modifiers",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "An essential collection of Ember.js modifiers",
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "author": {
+    "name": "Alexei Panov",
+    "email": "a8panov@gmail.com"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/alexeipanov/ember-essential-modifiers.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com/"
+  },
   "license": "MIT",
-  "author": "",
   "directories": {
     "doc": "doc",
     "test": "tests"
