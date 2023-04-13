@@ -10,8 +10,8 @@
     "email": "a8panov@gmail.com"
   },
   "repository": {
-      "type": "git",
-      "url": "git+https://github.com/alexeipanov/ember-essential-modifiers.git"
+    "type": "git",
+    "url": "git+https://github.com/alexeipanov/ember-essential-modifiers.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.com/"

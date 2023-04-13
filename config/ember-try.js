@@ -36,6 +36,8 @@ module.exports = async function () {
         npm: {
           devDependencies: {
             'ember-source': await getChannelURL('beta'),
+            'ember-resolver': '10.0.0',
+            '@ember/string': '3.0.1',
           },
         },
       },
@@ -44,6 +46,8 @@ module.exports = async function () {
         npm: {
           devDependencies: {
             'ember-source': await getChannelURL('canary'),
+            'ember-resolver': '10.0.0',
+            '@ember/string': '3.0.1',
           },
         },
       },
@@ -57,24 +61,6 @@ module.exports = async function () {
         npm: {
           devDependencies: {
             '@ember/jquery': '^1.1.0',
-          },
-        },
-      },
-      {
-        name: 'ember-classic',
-        env: {
-          EMBER_OPTIONAL_FEATURES: JSON.stringify({
-            'application-template-wrapper': true,
-            'default-async-observers': false,
-            'template-only-glimmer-components': false,
-          }),
-        },
-        npm: {
-          devDependencies: {
-            'ember-source': '~3.28.0',
-          },
-          ember: {
-            edition: 'classic',
           },
         },
       },
